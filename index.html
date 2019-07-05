@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Alexandre Dionizio">
+        <meta name="description" content="Página criada para aprendizado de desenvolvimento front-end do Senac Rio Preto" /> <!-- Define a descrição exibida nos resultados do Google. Descreve o conteúdo da página de uma forma a estimular o interesse das pesooas -->
+        <meta content="width=device-width, intial-scale=1, maximum-scale=1" name="viewport" /> <!-- Prepara o layout para os diferentes dispositivos -->
+        <meta name="keywords" content="senac, uc14, artigo, html5, css3, javascript"/>
+        <meta name="robots" content="index,follow" /> <!-- Orienta os buscadores a indexar o conteúdo da página e seguir todos os links para descobrir novas páginas -->
+        <title>Segunda Página Web Semântica e CSS3</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    </head>
+    
+    <body>
+        <header>
+            <nav id="navbar">
+                <ul>
+                    <a href="index.html">
+                        <span class="img-logo">Logo</span>
+                    </a>
+                    
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produto">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="main-section">
+            <article id="main-article">
+                <header>
+                    <h3 id="home"> Artigo - Título do artigo </h3>
+                    <p>Nisi eiusmod cohaerescant. Non fugiat legam cillum deserunt do officia aute illum probant sint, nam cupidatat e officia, illum singulis an incurreret. Cernantur malis incurreret mandaremus id tempor quorum te incididunt efflorescere. Nisi eiusmod cohaerescant. Non fugiat legam cillum deserunt do officia aute illum probant sint. </p>
+                </header>
+            </article>
+            
+            <aside id="main-figure">
+				<img class="img-aside" src="file:///D:/%23Tec.%20Informatica%2043/UC14/SiteInfo43/imagens/logo-ex-7.png" alt="figura aside" />
+        	</aside>
+        </section>
+        
+        
+        <section id="verde">
+            <article>
+                <header>
+                    <h3 id="produto"> Produto </h3>
+                    <p>Nisi eiusmod cohaerescant. Non fugiat legam cillum deserunt do officia aute illum probant sint, nam cupidatat e officia, illum singulis an incurreret. Cernantur malis incurreret mandaremus id tempor quorum te incididunt efflorescere.</p>
+                </header>
+            </article>
+            <br>
+            <article>
+                <header>
+                    <h3> Artigo 2 - Título do artigo 2 </h3>
+                    <p>Nisi eiusmod cohaerescant. Non fugiat legam cillum deserunt do officia aute illum probant sint, nam cupidatat e officia, illum singulis an incurreret. Cernantur malis incurreret mandaremus id tempor quorum te incididunt efflorescere.</p>
+                </header>
+            </article>
+        </section>
+        
+        <aside id="amarelo">
+            <header>
+                <h3>Aside - Entre em contato</h3>
+                <p>Appellat sunt nescius singulis te te multos probant cupidatat, deserunt si quid 
+                    probant hic nostrud ea expetendis. Magna sed tempor, do in legam ingeniis ea qui 
+                    velit anim sed arbitror ita te duis eiusmod admodum. Ut summis amet se appellat.
+                </p>
+                <article id="azul">
+                    <header>
+                        <h4>Artigo</h4>
+                        <p>Consequat de ipsum cernantur id noster eu sed illum possumus.</p>
+                    </header>
+                </article>
+            </header>
+        </aside>
+        
+		<h3 id="contato">Contato</h3>
+		<div class="container">
+			<form action="action_page.php">
+				<label for="fname">Nome</label>
+				<input type="text" id="fname" name="fname" placeholder="Seu nome...">
+				
+				<label for="lname">Sobrenome</label>
+				<input type="text" id="lname" name="lname" placeholder="Seu sobrenome...">
+				
+				<label for="country">País</label>
+				<select id="country" name="country">
+					<option value="brasil">Brasil</option>
+					<option value="argentina">Argentina</option>
+					<option value="chile">Chile</option>
+					<option value="uruguai">Uruguai</option>
+				</select>
+				<label for="subject">Mensagem</label>
+				<textarea id="subject" name="subject" placeholder="Digite algo...." style="height: 200px"></textarea>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+		
+        <footer>
+            Copyright &copy;2019 Alexandre
+        </footer>
+        
+    </body>
+</html>

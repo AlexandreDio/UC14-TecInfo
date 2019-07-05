@@ -1,0 +1,149 @@
+/* Estilização da página */
+
+.img-logo {
+    height: 40px;
+    width: 132px;
+    float: left; /* Flutuar para a esquerda */
+    margin-left: 20px;
+    display: inline-block; /* Exibir por blocos e não por linhas como é seu padrão */ 
+    background: url('../imagens/spotify.svg') no-repeat;
+    background-size: contain; /* Definir o tamanho de uma imagem de fundo. O valor contain define o tamanho da imagem de fundo que definimos em height e width */
+    color: transparent;
+}
+
+#navbar {
+    background: rgba(0,0,0,0.6); /* 0 => preto e 0.6 define a opacidade */
+    border: none;
+}
+
+#navbar ul {
+    height: 50px;
+    padding: 20px 20px 0px 0px;
+    margin: 0;
+    text-align: right;
+}
+
+
+
+#navbar ul li {
+    display: inline;
+    margin: 0;
+}
+
+#navbar ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    
+    /* Visual dos links */
+    background-color: #ff6600;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid #EDEDED;
+}
+
+#navbar ul li a:hover {
+    background-color: #D6D6D6;
+    color: #6D6D6D;
+    border-bottom: 3px solid #EA0000;
+}
+
+
+
+#main-section {
+
+}
+
+#main-article {
+	width: 60%;
+	height: 260px;
+	background: #9999ff;
+	float: left;
+	
+}
+
+#main-figure {
+	width: 40%;
+	float: left;
+	text-align: center;
+	height: 260px;
+}
+
+.img-aside {
+	max-width: 100%;
+}
+
+
+
+#verde {
+    width: 80%;
+    height: 1400px;
+    background-color: #00cc66;
+    float: left;
+	position: relative;
+}
+
+#amarelo {
+    width: 20%;
+    height: 800px;
+    background-color: #ffff00;
+	float: right;
+}
+
+#azul {
+    width: 400px;
+    height: 200px;
+    background-color: #0000ff;
+    position: fixed;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+    font-size: 0.75em;
+    position: relative;
+    height: 50px;
+    clear: both;
+}
+
+h3 {
+	clear: both;
+	text-align: center;
+}
+
+/* Estilos do formulário */
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: none;
+}
+
+.container {
+	clear: both;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+

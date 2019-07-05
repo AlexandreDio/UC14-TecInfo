@@ -1,0 +1,18 @@
+/* Resetar as configurações dos browsers para deixar seu comportamento parecido */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+ul, ol, li {
+    list-style: none;
+}
