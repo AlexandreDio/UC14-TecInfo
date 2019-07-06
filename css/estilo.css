@@ -21,8 +21,22 @@
     padding: 20px 20px 0px 0px;
     margin: 0;
     text-align: right;
+	/*overflow: hidden;*/
+	transition: 1s;
 }
 
+.menu-icon 
+{
+    line-height: 30px;
+    width: 100%;
+    background: #0D5D8E;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
 
 
 #navbar ul li {
@@ -71,8 +85,6 @@
 .img-aside {
 	max-width: 100%;
 }
-
-
 
 #verde {
     width: 80%;
@@ -145,5 +157,49 @@ input[type=submit] {
 
 input[type=submit]:hover {
 	background-color: #45a049;
+}
+
+
+@media(max-width: 786px) 
+{
+    .img-logo
+    {
+        position: fixed;
+        top: 0;
+    }
+	
+    nav ul 
+    {
+        width: 100%;
+        max-height: 0px;
+        background: #042944;
+    }
+
+    nav ul li
+    {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+    }
+	
+    .menu-icon 
+    {
+        display: block;
+    }
+	
+    header h1
+    {
+        padding: 150px 0px 0px 50px; /*Top / Right / Bottom / Left*/
+    }
+	
+    header p
+    {
+        padding-left: 30px;
+        width: 80%;
+        text-align: justify;
+    }
+    
+	.margin-left { margin-left: 30px; }
 }
 
